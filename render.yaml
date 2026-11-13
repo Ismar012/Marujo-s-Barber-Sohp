@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: marujos-barbershop-demo
+    runtime: static
+    buildCommand: echo "Site pronto"
+    staticPublishPath: .
